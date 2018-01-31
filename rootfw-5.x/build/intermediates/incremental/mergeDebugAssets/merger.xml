@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/myxroft2/Desktop/Workspace/Josiah/WristTrack/rootfw-5.x/src/main/assets"/><source path="/home/myxroft2/Desktop/Workspace/Josiah/WristTrack/rootfw-5.x/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/home/myxroft2/Desktop/Workspace/Josiah/WristTrack/rootfw-5.x/src/debug/assets"/></dataSet></merger>
