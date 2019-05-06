@@ -13,7 +13,7 @@ RootFW is a tool that helps Android Applications act as root. The only way for a
 
 **Maven**
 
-Reflect Tools is available in Maven respository at [Bintray](https://bintray.com/dk-zero-cool/maven/rootfw/view) and can be accessed via jCenter.
+Reflect Tools is available in Maven repository at [Bintray](https://bintray.com/dk-zero-cool/maven/rootfw/view) and can be accessed via jCenter.
 
 ```
 dependencies {

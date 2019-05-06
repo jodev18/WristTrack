@@ -6,5 +6,5 @@
 
 Return this stream's id
 
-Each new [ShellStream](index.md) get's an id. This method will return the id of this stream
+Each new [ShellStream](index.md) gets an id. This method will return the id of this stream
 

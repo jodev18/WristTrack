@@ -12,7 +12,7 @@ does this by invoking the argument `-h` on the specified command.
 Something like `toolbox reboot -h` will not produce any output,
 it will simply ignore the argument and reboot the device, if the
 installed version supports reboot. It will work on most commands though.
-Just dont use it on commands that will affect the system, like reboot.
+Just don't use it on commands that will affect the system, like reboot.
 
 ### Parameters
 

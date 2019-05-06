@@ -4,7 +4,7 @@
 
 `inline fun logDebug(type: `[`Char`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char/index.html)`, tag: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, msg: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, e: `[`Throwable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)
 
-Send mesage to logcat
+Send message to logcat
 
 Note that this function will only send logcat messages if and only if `DEBUG` returns `true`
 also note that the function is inline, meaning that it will be copied to the location where
@@ -55,7 +55,7 @@ calling the function, the conditions are handled automatically.
 
 `inline fun logDebug(type: `[`Char`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char/index.html)`, tag: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, msg: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)
 
-Send mesage to logcat
+Send message to logcat
 
 Note that this function will only send logcat messages if and only if `DEBUG` returns `true`
 also note that the function is inline, meaning that it will be copied to the location where

@@ -55,7 +55,7 @@ ins.addCall("ls /", 0, true)
 
 `open fun addCall(command: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, resultCodes: `[`Array`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html)`<`[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`>, populate: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)
 
-Add a new [Call](-containers/-call/index.md) that is auto build from a shell command with multiple acceptible result codes
+Add a new [Call](-containers/-call/index.md) that is auto build from a shell command with multiple acceptable result codes
 and optionally auto populate with all registered all-in-one binaries
 
 Auto populate means that multiple [Call](-containers/-call/index.md) instances will be auto generated, each

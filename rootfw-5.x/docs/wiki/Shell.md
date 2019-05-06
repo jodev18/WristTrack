@@ -17,7 +17,7 @@ if (command.getResultSuccess()) {
 shell.destroy();
 ```
 
-The `Shell` class does not really deal with strings, but instead with a [Command](Command.md) class that acts as both input and output container. But it has convenient methods that automaticaly creates a `Command` with the parsed string and populates it with shell output.
+The `Shell` class does not really deal with strings, but instead with a [Command](Command.md) class that acts as both input and output container. But it has convenient methods that automatically creates a `Command` with the parsed string and populates it with shell output.
 
 ### Example: Using Command class
 
