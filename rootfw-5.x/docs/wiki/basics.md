@@ -92,7 +92,7 @@ if (cmd.getResultSuccess()) {
 shell.destroy();
 ```
 
-The `Command` is actually what contains the command to execute, our `Shell` class just has a few helper methods that automatically creates it when parsing `String` as command. It is also what get's populated with the result from the execution. So it is used as both input and output.
+The `Command` is actually what contains the command to execute, our `Shell` class just has a few helper methods that automatically creates it when parsing `String` as command. It is also what gets populated with the result from the execution. So it is used as both input and output.
 
 ```java
 Command cmd = shell.execute(new Command("someCommand"));
@@ -103,7 +103,7 @@ shell.execute(cmd);
 ```
 > The `Command` extends from the abstract `Data` class that has a collection of tools to handle the shell output. Tools such as `trim()` that removes empty lines and trims everything else, `sort()` and `assort` that can exclude certain lines based on range, regexp, sequence comparison and more, `replace()` that can replace specific sequences in each line based on simple sequence comparison or regexp and more.
 
-Android has no standard when it comes to the shell. Each device has a different type of all-in-one binary and each binary has different features and procudes different output. This makes it hard to create apps that uses the shell. The `Command` can help with some of this using it's `Call` feature. Each `Command` can contain multiple `Call`'s, which is a class that stores one shell command and one or more acceptible result codes for that shell command. When you execute the `Command`, the `Shell` class will execute every `Call` instance within, until it produces a result code that matches one of the acceptible ones from the executed `Call`.
+Android has no standard when it comes to the shell. Each device has a different type of all-in-one binary and each binary has different features and produces different output. This makes it hard to create apps that uses the shell. The `Command` can help with some of this using it's `Call` feature. Each `Command` can contain multiple `Call`'s, which is a class that stores one shell command and one or more acceptable result codes for that shell command. When you execute the `Command`, the `Shell` class will execute every `Call` instance within, until it produces a result code that matches one of the acceptable ones from the executed `Call`.
 
 ```java
 // Create a new Command
@@ -143,7 +143,7 @@ Command cmd = new Command();
 cmd.addCall("someCommand", 0, true);
 ```
 
-> Note that all calls will use the same acceptible result code. Most shell command will produce the same result code no mater which binary, but whenever this is not the case, this shortcut might not be the best one
+> Note that all calls will use the same acceptable result code. Most shell command will produce the same result code no mater which binary, but whenever this is not the case, this shortcut might not be the best one
 
 Or you can just do it from the `Shell` class.
 
